@@ -1,0 +1,486 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@400;500&display=swap");
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  font-family: 'Raleway', sans-serif;
+  line-height: 1.6;
+}
+
+.flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+h1, h2, h3, h4 {
+  font-family: 'Raleway', sans-serif;
+}
+
+p {
+  font-family: 'Raleway', sans-serif;
+}
+
+.container,
+.container-fluid {
+  margin: 0px;
+  padding: 0px !important;
+}
+
+#particles-js {
+  height: 100vh;
+  width: 100vw;
+  background-color: black;
+}
+
+.home-section {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100vw;
+}
+
+.home {
+  height: 100vh;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.home .text {
+  font-weight: 500;
+  text-align: center;
+  color: white;
+  z-index: 5;
+}
+
+.home .text h1 {
+  font-size: 2.4rem;
+}
+
+.home span {
+  color: #e31b6d;
+}
+
+.home a {
+  text-decoration: none;
+  color: black;
+  border: 2px solid grey;
+  height: 100%;
+  width: 100%;
+  padding: 12px 50px 12px 20px;
+  font-size: 1.2rem;
+  font-weight: 400;
+  position: relative;
+  color: white;
+}
+
+.home a:hover {
+  background-color: #04c2c9;
+  border: 2px solid #04c2c9;
+  color: white;
+}
+
+.home a:hover i {
+  -webkit-transform: rotate(90deg);
+          transform: rotate(90deg);
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.home i {
+  position: absolute;
+  right: 15px;
+  top: 17px;
+}
+
+nav {
+  background-color: #1b242f !important;
+  border-bottom: 3px solid #04c2c9;
+}
+
+nav .active {
+  color: #e31b6d !important;
+  font-size: 1.2rem;
+}
+
+nav .other {
+  font-size: 1.2rem;
+  color: white !important;
+}
+
+nav .other:hover {
+  color: #e31b6d !important;
+  -webkit-transition: 00.3s;
+  transition: 00.3s;
+}
+
+nav .nav-item {
+  margin-right: 20px;
+}
+
+.about {
+  margin-top: 70px;
+}
+
+.about .about-heading {
+  font-size: 2.4rem;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-weight: 600;
+  font-family: 'Raleway', sans-serif;
+  text-align: center;
+}
+
+.about .about-heading-border {
+  width: 70px;
+  height: 4px;
+  border: 2px solid black;
+  margin: 0px 537px;
+}
+
+.icon-box {
+  margin-top: 50px;
+}
+
+p {
+  color: gray;
+}
+
+.main-box {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.box {
+  width: 25%;
+  text-align: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin: 10px;
+}
+
+.hexagon {
+  width: 69.28px;
+  height: 120px;
+  background-color: #04c2c9;
+  text-align: center;
+  position: relative;
+  margin-left: 37%;
+}
+
+.hexagon img {
+  margin-top: 35px;
+  width: 50px;
+  color: white;
+}
+
+.hexagon::before {
+  width: 69.28px;
+  height: 120px;
+  content: '';
+  background-color: #04c2c9;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  z-index: -1;
+  -webkit-transform: rotate(-61deg);
+          transform: rotate(-61deg);
+}
+
+.hexagon::after {
+  width: 69.28px;
+  height: 120px;
+  content: '';
+  background-color: #04c2c9;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  z-index: -1;
+  -webkit-transform: rotate(61deg);
+          transform: rotate(61deg);
+}
+
+.hex-heading {
+  margin-top: 20px;
+  font-weight: 600;
+}
+
+.mine {
+  margin-top: 70px;
+}
+
+.myself {
+  margin-top: 78px;
+  text-align: center;
+}
+
+.myself h1 {
+  font-weight: 600;
+}
+
+.myself a {
+  text-decoration: none;
+  color: #04c2c9;
+}
+
+.myself a:hover {
+  color: #00a1a7;
+}
+
+.skill-box {
+  margin-bottom: 28px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.skill-box .css {
+  width: 90%;
+  text-align: center;
+  background-color: #00a1a7;
+}
+
+.skill-box .css-skill {
+  width: 10%;
+  text-align: center;
+  background-color: #b6b2b2;
+}
+
+.skill-box .html {
+  width: 90%;
+  text-align: center;
+  background-color: #00a1a7;
+}
+
+.skill-box .html-skill {
+  width: 10%;
+  text-align: center;
+  background-color: #b6b2b2;
+}
+
+.skill-box .js {
+  width: 80%;
+  text-align: center;
+  background-color: #00a1a7;
+}
+
+.skill-box .js-skill {
+  width: 20%;
+  text-align: center;
+  background-color: #b6b2b2;
+}
+
+.skill-box .git {
+  width: 90%;
+  text-align: center;
+  background-color: #00a1a7;
+}
+
+.skill-box .git-skill {
+  width: 10%;
+  text-align: center;
+  background-color: #b6b2b2;
+}
+
+.skill-box .ui {
+  width: 70%;
+  text-align: center;
+  background-color: #00a1a7;
+}
+
+.skill-box .ui-skill {
+  width: 30%;
+  text-align: center;
+  background-color: #b6b2b2;
+}
+
+.skill-box .bs {
+  width: 93%;
+  text-align: center;
+  background-color: #00a1a7;
+}
+
+.skill-box .bs-skill {
+  width: 7%;
+  text-align: center;
+  background-color: #b6b2b2;
+}
+
+.skill-box .sass {
+  width: 90%;
+  text-align: center;
+  background-color: #00a1a7;
+}
+
+.skill-box .sass-skill {
+  width: 10%;
+  text-align: center;
+  background-color: #b6b2b2;
+}
+
+.skill-box .skill-name {
+  background-color: #04c2c9;
+  color: white;
+  border-radius: 2px solid #04c2c9;
+  width: 150px;
+}
+
+.contact-section {
+  background-color: #252934;
+}
+
+.contact {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-bottom: 100px;
+}
+
+.contact-text {
+  text-align: center;
+  margin-top: 40px;
+}
+
+.contact-heading {
+  color: white;
+  font-size: 2.4rem;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-weight: 600;
+  font-family: 'Raleway', sans-serif;
+  text-align: center;
+}
+
+.contact-heading-border {
+  width: 130px;
+  height: 4px;
+  border: 2px solid white;
+  text-align: center;
+  margin-top: 10px;
+  margin-left: 96.24px;
+}
+
+.para {
+  text-align: center;
+  margin-top: 30px;
+}
+
+.para p {
+  color: #04c2c9;
+}
+
+form {
+  margin-top: 60px;
+  margin-bottom: 100px;
+  max-width: 500px;
+}
+
+form input {
+  width: 100%;
+  background-color: #1b242f;
+  font-family: 'Raleway', sans-serif;
+  border: 0;
+  margin-bottom: 4px;
+  padding: 5px 5px;
+}
+
+form textarea {
+  width: 100%;
+  background-color: #1b242f;
+  font-family: 'Raleway', sans-serif;
+  border: 0;
+  padding: 5px 5px;
+}
+
+form .btn {
+  width: 120px;
+  padding: 0px;
+  margin-left: 76%;
+  margin-top: 5px;
+  font-family: 'Raleway', sans-serif;
+}
+
+.successful {
+  background-color: #04c986;
+  border: 2px solid #04c986;
+}
+
+.successful div:first-child {
+  width: 95%;
+  text-align: center;
+}
+
+button {
+  padding: 10px 30px;
+  background-color: #252934;
+  border: 2px solid white;
+  color: white;
+  margin-left: 537.78px;
+  margin-top: 5px;
+  width: 100%;
+}
+
+button:hover {
+  background-color: #04c2c9;
+  border: 2px solid #04c2c9;
+}
+
+footer {
+  background-color: #1b242f;
+}
+
+footer .container {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 200px;
+}
+
+footer img {
+  width: 60px;
+  height: 60px;
+  padding: 10px;
+}
+
+.social-icon div:hover {
+  background-color: #00a1a7;
+}
+
+.copyright {
+  color: black;
+}
+
+.copyright span {
+  color: #e31b6d;
+}
+/*# sourceMappingURL=style.css.map */
