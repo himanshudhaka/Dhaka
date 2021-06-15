@@ -3,12 +3,14 @@
 $regular-weight: 400;
 $medium-weight:500;
 $dark-pink:#e31b6d;
+$dark-blue:#1b242f;
+$light-blue:#04c2c9;
+$mix-blue:#00a1a7;
+$light-black:#616161;
+$light-grey:#252934;
 
-
-*{
-    box-sizing: border-box;
-    margin: 0px;
-    padding: 0px;
+html{
+    font-size: 10px;
 }
 
 body{
@@ -16,13 +18,14 @@ body{
     line-height: 1.6;
 }
 
-.flex{
-    display: flex;
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
 }
 
-h1,h2,h3,h4{
-    font-family: 'Raleway', sans-serif;
-}
-p{
-    font-family: 'Raleway', sans-serif;
+.flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }

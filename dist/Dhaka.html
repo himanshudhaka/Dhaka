@@ -14,112 +14,89 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
     integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
     crossorigin="anonymous" referrerpolicy="no-referrer" />
-  <title>Dhaka</title>
+  <title>Index</title>
 </head>
 
 <body>
-  <div class="container-fluid containers">
+  <section class="header flex">
     <div id="particles-js">
     </div>
-    <section class="container-field home-section">
-      <div class=" flex home">
-        <div class="text ">
-          <h1>Hello, I'm <span>Himanshu Dhaka.</span><br>I'm a full stack developer.</h1>
-        </div>
-        <div class="btn"><a href="#">View my work <i class="fas fa-arrow-right"></i></a></div>
+    <div id="home" class="flex">
+      <div class="text">
+        Hello, I'm <span>Himanshu Dhaka.</span><br>I'm a full stack developer.
       </div>
+      <div class="btn">View my work<i class="fas fa-arrow-right"></i></div>
+      <nav class="navbar navbar-expand-lg navbar-light">
+        <div class="container">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+            aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#" dest="about">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Portfolio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Contact</a>
+              </li>
+            </ul>
 
-    </section>
-
-    <nav class="navbar navbar-expand-lg navbar-light">
-      <div class="container">
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
-          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link other" href="#" dest="about">About</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link other" href="#">Portfolio</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link other" href="#">Contact</a>
-            </li>
-          </ul>
-
+          </div>
         </div>
-      </div>
-    </nav>
-
-  </div>
+      </nav>
+    </div>
+  </section>
 
   <section class="about">
-    <div class="container">
-      <div class="about-heading">
-        About
-      </div>
-      <div class="about-heading-border">
-      </div>
-    </div>
+    <div class="container flex">
+      <div class="about-text">ABOUT</div>
+      <div class="line"></div>
 
-    <div class="container icon-box">
-      <div class="flex main-box">
-        <div class="fast box flex">
-          <div class="hexagon">
-            <img src="../Images/speedometer.svg" alt="">
-          </div>
-          <div>
-            <h2 class="hex-heading">Fast</h2>
-          </div>
-          <div>
-            <p>Fast load times and lag free interaction, my highest
-              priority.</p>
-          </div>
-        </div>
-        <div class="responsive box flex">
-          <div class="hexagon">
-            <img src="../Images/responsive.svg" alt="">
-          </div>
-          <div>
-            <h2 class="hex-heading">Responsive</h2>
-          </div>
-          <div>
-            <p>My layouts will work on any device, big or small.</p>
-          </div>
-        </div>
-        <div class="initutive box flex">
-          <div class="hexagon">
-            <img src="../Images/lightbulb.svg" alt="">
-          </div>
-          <div>
-            <h2 class="hex-heading">Inituitive</h2>
-          </div>
-          <div>
-            <p>Strong preference for easy to use, intuitive UX/UI.</p>
-          </div>
-        </div>
-        <div class="dynamic box flex">
-          <div class="hexagon">
-            <img src="../Images/rocket-launch.svg" alt="">
-          </div>
-          <div>
-            <h2 class="hex-heading">Dynamic</h2>
-          </div>
-          <div>
-            <p>Websites don't have to be static, I love making pages come to life.</p>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <div class="container mine">
       <div class="row">
+        <div class="col box flex">
+          <div class="bx flex">
+            <div class="hexagon">
+              <img src="../Images/speedometer.svg" alt="">
+            </div>
+            <div>Fast</div>
+            <div>Fast load times and lag free<br>interaction, my highest priority.</div>
+          </div>
+          <div class="bx flex">
+            <div class="hexagon">
+              <img src="../Images/responsive.svg" alt="">
+            </div>
+            <div>Responsive</div>
+            <div>My layouts will work<br>on any device, big or small.</div>
+          </div>
+        </div>
+
+        <div class="col box flex">
+          <div class="bx flex">
+            <div class="hexagon">
+              <img src="../Images/lightbulb.svg" alt="">
+            </div>
+            <div>Inituitive</div>
+            <div>Strong preference for easy to use, intuitive UX/UI.</div>
+          </div>
+          <div class="bx flex">
+            <div class="hexagon">
+              <img src="../Images/rocket-launch.svg" alt="">
+            </div>
+            <div>Dynamic</div>
+            <div>Websites don't have to be static, I love making pages come to life.</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row skill">
         <div class="col">
           <div class="myself">
             <h1>My, Myself & I</h1>
@@ -128,75 +105,74 @@
             <p>Interested in the entire frontend spectrum and working on ambitious projects with positive people.</p>
             <p><a href="">Let’s make something special.</a></p>
           </div>
-
         </div>
-        <div class="col">
+        <div class="col second">
           <div class="skill-box flex">
             <div class="css">
               <div class="skill-name">CSS</div>
             </div>
-            <div class="css-skill">90%</div>
+            <span>90%</span>
           </div>
           <div class="skill-box flex">
             <div class="html">
               <div class="skill-name">HTML</div>
             </div>
-            <div class="html-skill">90%</div>
+            <span>90%</span>
           </div>
           <div class="skill-box flex">
             <div class="js">
               <div class="skill-name">JAVASCRIPT</div>
             </div>
-            <div class="js-skill">80%</div>
+            <span>80%</span>
           </div>
           <div class="skill-box flex">
             <div class="git">
               <div class="skill-name">GIT</div>
             </div>
-            <div class="git-skill">90%</div>
+            <span>90%</span>
           </div>
           <div class="skill-box flex">
             <div class="ui">
               <div class="skill-name">UI DESIGN</div>
             </div>
-            <div class="ui-skill">70%</div>
+            <span>70%</span>
           </div>
           <div class="skill-box flex">
             <div class="bs">
               <div class="skill-name">BOOTSTRAP</div>
             </div>
-            <div class="bs-skill">95%</div>
+            <span>95%</span>
           </div>
           <div class="skill-box flex">
             <div class="sass">
               <div class="skill-name">SASS</div>
             </div>
-            <div class="sass-skill">90%</div>
+            <span>90%</span>
           </div>
         </div>
       </div>
     </div>
   </section>
 
-  <section class="contact-section">
-    <div class="container flex contact">
-      <div class="contact-text">
+  <section class="contact">
+    <div class="container flex">
+      <div class="contact-text flex">
         <div class="contact-heading">
           <h1>CONTACT</h1>
         </div>
         <div class="contact-heading-border">
         </div>
-        <div class="para"><p>Have a question or want to work together?</p></div>
+        <div class="para">Have a question or want to work together?</div>
       </div>
-      <form action="">
-        <input type="text" placeholder="Name">
-        <input type="email" name="" id="email" placeholder="Email">
+      <form action="" class="form flex">
+        <input type="text" placeholder="Name" required>
+        <input type="email" name="" id="email" placeholder="Email" required>
         <textarea name="" id="" cols="30" rows="5" placeholder="Your Message"></textarea>
         <div class="successful flex">
           <div>Your message was sent successfully. Thanks!</div>
           <div><img src="../Images/window-close.svg" alt="cross"></div>
         </div>
-        <div class="btn"><button>Submit</button></div>
+        <div class="sub-btn"><input type="submit" value="SUBMIT" class="button"></div>
         
       </form>
     </div>
@@ -213,9 +189,6 @@
       <div class="copyright">Himanshu Dhaka <span>&copy;2021</span></div>
     </div>
   </footer>
-
-
-
 
 
   <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
