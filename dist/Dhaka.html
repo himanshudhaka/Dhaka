@@ -14,6 +14,8 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
     integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
     crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  
   <title>Index</title>
 </head>
 
@@ -57,19 +59,19 @@
 
   <section class="about">
     <div class="container flex">
-      <div class="about-text">ABOUT</div>
-      <div class="line"></div>
+      <div class="about-text" data-aos="fade-right">ABOUT</div>
+      <div class="line" data-aos="fade-left"></div>
 
       <div class="row">
         <div class="col box flex">
-          <div class="bx flex">
+          <div class="bx flex" data-aos="flip-right">
             <div class="hexagon">
               <img src="../Images/speedometer.svg" alt="">
             </div>
             <div>Fast</div>
             <div>Fast load times and lag free<br>interaction, my highest priority.</div>
           </div>
-          <div class="bx flex">
+          <div class="bx flex" data-aos="flip-right">
             <div class="hexagon">
               <img src="../Images/responsive.svg" alt="">
             </div>
@@ -79,14 +81,14 @@
         </div>
 
         <div class="col box flex">
-          <div class="bx flex">
+          <div class="bx flex" data-aos="flip-left">
             <div class="hexagon">
               <img src="../Images/lightbulb.svg" alt="">
             </div>
             <div>Inituitive</div>
             <div>Strong preference for easy to use, intuitive UX/UI.</div>
           </div>
-          <div class="bx flex">
+          <div class="bx flex" data-aos="flip-left">
             <div class="hexagon">
               <img src="../Images/rocket-launch.svg" alt="">
             </div>
@@ -97,7 +99,7 @@
       </div>
 
       <div class="row skill">
-        <div class="col">
+        <div class="col" data-aos="fade-right">
           <div class="myself">
             <h1>My, Myself & I</h1>
             <p>I’m a Front-End Developer located in India. I have a serious passion for UI effects, animations and
@@ -106,7 +108,7 @@
             <p><a href="">Let’s make something special.</a></p>
           </div>
         </div>
-        <div class="col second">
+        <div class="col second" data-aos="fade-left">
           <div class="skill-box flex">
             <div class="css">
               <div class="skill-name">CSS</div>
@@ -157,14 +159,14 @@
   <section class="contact">
     <div class="container flex">
       <div class="contact-text flex">
-        <div class="contact-heading">
+        <div class="contact-heading" data-aos="fade-left">
           <h1>CONTACT</h1>
         </div>
-        <div class="contact-heading-border">
+        <div class="contact-heading-border" data-aos="fade-left">
         </div>
-        <div class="para">Have a question or want to work together?</div>
+        <div class="para" data-aos="fade-left">Have a question or want to work together?</div>
       </div>
-      <form action="" class="form flex">
+      <form action="" class="form flex" data-aos="zoom-in-up">
         <input type="text" placeholder="Name" required>
         <input type="email" name="" id="email" placeholder="Email" required>
         <textarea name="" id="" cols="30" rows="5" placeholder="Your Message"></textarea>
@@ -197,6 +199,16 @@
       console.log('callback - particles.js config loaded');
     });
   </script>
+
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
+
+
+
+
+
 </body>
 
 </html>
